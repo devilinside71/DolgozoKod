@@ -48,24 +48,24 @@ Partial Class Form1
         Me.TableLayoutPanel1.RowCount = 2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 76.24521!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.75479!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(549, 261)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(528, 127)
         Me.TableLayoutPanel1.TabIndex = 0
         '
         'ComboBoxPrinter
         '
         Me.ComboBoxPrinter.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ComboBoxPrinter.FormattingEnabled = True
-        Me.ComboBoxPrinter.Location = New System.Drawing.Point(3, 201)
+        Me.ComboBoxPrinter.Location = New System.Drawing.Point(3, 99)
         Me.ComboBoxPrinter.Name = "ComboBoxPrinter"
-        Me.ComboBoxPrinter.Size = New System.Drawing.Size(431, 21)
+        Me.ComboBoxPrinter.Size = New System.Drawing.Size(415, 21)
         Me.ComboBoxPrinter.TabIndex = 0
         '
         'ButtonPrint
         '
         Me.ButtonPrint.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ButtonPrint.Location = New System.Drawing.Point(440, 201)
+        Me.ButtonPrint.Location = New System.Drawing.Point(424, 99)
         Me.ButtonPrint.Name = "ButtonPrint"
-        Me.ButtonPrint.Size = New System.Drawing.Size(106, 57)
+        Me.ButtonPrint.Size = New System.Drawing.Size(101, 25)
         Me.ButtonPrint.TabIndex = 1
         Me.ButtonPrint.Text = "Nyomtat"
         Me.ButtonPrint.UseVisualStyleBackColor = True
@@ -85,16 +85,16 @@ Partial Class Form1
         Me.TableLayoutPanel2.RowCount = 2
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel2.Size = New System.Drawing.Size(431, 192)
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(415, 90)
         Me.TableLayoutPanel2.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Label1.Location = New System.Drawing.Point(33, 0)
+        Me.Label1.Location = New System.Drawing.Point(29, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(76, 96)
+        Me.Label1.Size = New System.Drawing.Size(76, 45)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Dolgozó neve:"
         '
@@ -102,33 +102,33 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Label2.Location = New System.Drawing.Point(37, 96)
+        Me.Label2.Location = New System.Drawing.Point(33, 45)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 96)
+        Me.Label2.Size = New System.Drawing.Size(72, 45)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Dolgozói kód:"
         '
         'TextBoxName
         '
         Me.TextBoxName.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBoxName.Location = New System.Drawing.Point(115, 3)
+        Me.TextBoxName.Location = New System.Drawing.Point(111, 3)
         Me.TextBoxName.Name = "TextBoxName"
-        Me.TextBoxName.Size = New System.Drawing.Size(313, 20)
+        Me.TextBoxName.Size = New System.Drawing.Size(301, 20)
         Me.TextBoxName.TabIndex = 2
         '
         'TextBoxKod
         '
         Me.TextBoxKod.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBoxKod.Location = New System.Drawing.Point(115, 99)
+        Me.TextBoxKod.Location = New System.Drawing.Point(111, 48)
         Me.TextBoxKod.Name = "TextBoxKod"
-        Me.TextBoxKod.Size = New System.Drawing.Size(313, 20)
+        Me.TextBoxKod.Size = New System.Drawing.Size(301, 20)
         Me.TextBoxKod.TabIndex = 3
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(549, 261)
+        Me.ClientSize = New System.Drawing.Size(528, 127)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "Form1"
         Me.Text = "Dolgozói kód nyomtató"
