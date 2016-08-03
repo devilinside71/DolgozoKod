@@ -11,9 +11,9 @@
       ^CFT,60,40
       ^CI28
       ^FX DOLGOZONEV
-      ^FT20,200^FH^FB360,2,0,C^FDDOLGOZOUTF^FS
+      ^FT20,230^FH^FB360,2,0,C^FDDOLGOZOUTF^FS
       ^FX Bold miatt nehany ponttal arrebb ugyanaz
-      ^FT21,200^FH^FB360,2,0,C^FDDOLGOZOUTF^FS
+      ^FT21,230^FH^FB360,2,0,C^FDDOLGOZOUTF^FS
       ^PQ1
       ^XZ
     </code>
